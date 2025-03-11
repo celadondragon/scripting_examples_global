@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>false</applies_req_item>
+        <applies_req_item>true</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
@@ -27,8 +27,8 @@
 
     function cloudExists(response) {
         var cloudMetadataExists = response.responseXML.documentElement.getAttribute("answer");
-        if (!cloudMetadataExists) {
-            g_form.addErrorMessage("Tier 1 Name: " + g_form.getValue('tier_1_name') + " does not exist");
+        if (cloudMetadataExists) {
+            g_form.addErrorMessage("Tier 1 Name: " + g_form.getValue('tier_1_name') + " already exist");
         }
     }
 }]]></script>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cae46fd483106210f2d4a6d0deaad3ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>CheckCloudMetadataExists</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scripting Examples Global" source="5d49359883d42210f2d4a6d0deaad3bf">5d49359883d42210f2d4a6d0deaad3bf</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Scripting Examples Global">5d49359883d42210f2d4a6d0deaad3bf</sys_scope>
         <sys_update_name>catalog_script_client_cae46fd483106210f2d4a6d0deaad3ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 18:58:56</sys_updated_on>
+        <sys_updated_on>2025-03-11 22:05:59</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
