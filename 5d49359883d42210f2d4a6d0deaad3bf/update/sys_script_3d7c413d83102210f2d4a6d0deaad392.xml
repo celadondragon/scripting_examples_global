@@ -34,12 +34,18 @@
     // Create a GlideDateTime object for the When needed date
     var whenNeeded = new GlideDateTime(current.u_when_needed);
 
-    // If the When needed date is before rightnow, do not write the record to the database
+    // If the When needed date is before rightnow or on today, do not write the record to the database
     // Output an error message to the screen
+	var today = new GlideDate().getDisplayValue();
+	neededForToday = whenNeeded.getLocalDate().getDisplayValue() == today;
     if (whenNeeded.before(rightnow)) {
         gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
         current.setAbortAction(true);
-    }
+    } else if (neededForToday) {
+		gs.addErrorMessage("When needed date cannot be today.  Your request has not been saved to the database.");
+        current.setAbortAction(true);
+	}
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -47,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d7c413d83102210f2d4a6d0deaad392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Needit app abort past date test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scripting Examples Global" source="5d49359883d42210f2d4a6d0deaad3bf">5d49359883d42210f2d4a6d0deaad3bf</sys_package>
@@ -55,7 +61,7 @@
         <sys_scope display_value="Scripting Examples Global">5d49359883d42210f2d4a6d0deaad3bf</sys_scope>
         <sys_update_name>sys_script_3d7c413d83102210f2d4a6d0deaad392</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-15 23:10:19</sys_updated_on>
+        <sys_updated_on>2025-03-15 23:47:50</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
