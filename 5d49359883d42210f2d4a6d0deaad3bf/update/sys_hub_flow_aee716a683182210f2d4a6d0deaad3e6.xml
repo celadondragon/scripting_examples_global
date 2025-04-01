@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>test_trivia_spoke</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"b7d43b00-5622-4fcb-94c1-d4aeb6621e30.question_id","label":"1 - Get Trivia Question➛Question ID","type":"string","base_type":"string","usedInstances":{"4f07cd33-e318-4f50-bfd4-01e4a7638839":["question_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"dde10fc2-0bad-4067-918d-dd6443d30756"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aee716a683182210f2d4a6d0deaad3e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Test Trivia Spoke</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scripting Examples Global" source="5d49359883d42210f2d4a6d0deaad3bf">5d49359883d42210f2d4a6d0deaad3bf</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Scripting Examples Global">5d49359883d42210f2d4a6d0deaad3bf</sys_scope>
         <sys_update_name>sys_hub_flow_aee716a683182210f2d4a6d0deaad3e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-18 12:41:05</sys_updated_on>
+        <sys_updated_on>2025-03-19 11:37:18</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -79,16 +79,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 12:41:05</sys_created_on>
         <sys_id>8f795eaa83182210f2d4a6d0deaad3b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-18 12:41:05</sys_updated_on>
+        <sys_updated_on>2025-03-19 11:37:18</sys_updated_on>
         <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/3VSwWrcMBD9laDzxpXtbdn4VggLPbSBJOQSghhL412BLKmytIkb8u8d2cpS0ta3eTPz5r0nP74yAz0a1rHbZC+cZRumbcRgwdzPHgk/GK1QKIgooh6RBkawVLowsy6GhBvmgsLAuprzDTuBSXg3T98U7dKwhTGzhGSFzuxLn4CGN58veXtZ7y7qttvyjnPqyqM2KqBl3ePThnkItB0z9+uHViRx4l36NYn7dL+K0/nuVQODVFdb2Tb0cd7stnX/pe3rRrWAuKO5v2x/FBr/Z/9Pt/gS0SqkmwOYCf+RTUBQN9bM54kj5btGM8LLpH9hoQo4INmTuDbPpVB68gbmFZZHpyXe+KhJ9IJE6E3Zkc6k0f5YjVCtcIBk4kOJnJA0ER/6rDmrKJKGu6N7vn0/uNd2MViaxkkw5wpiDLpPEaf8JmhwJCIxgvfaHoQP7qSXZdIyVkt21WDcMx2d9MFWILPwiiKCak/49QI/QNDZxXeioeW3xb34mfLd1UdRLFbTNFBC2Ws05UebZNA+fqUDJyxy355+A2MfavrgAgAA</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/3VSwWrcMBD9laDzxsj2pmx8K5SFHtpAUnIJwYyl8e6ALCmytIkb8u8Z2c5S0la3eTPz5r2HHl6FgQ6NaMRtshfOio0gGzFYML8mj4wfDGlsNURsIw3IAwNYLl2YRBNDwo1wQWMQTSnlRpzAJLybxu+ad3nYwpBZQrItZfa5z0Alq6tLWV+Wu4uybraykZK76khGB7SieXjcCA+Bt2Pmfv3Uokx/XUGv9PVW1RU/Kavdtuy+1F1Z6RoQd0z4l7vPeuL/XP5pCl8iWo18swcz4j8iCAj6xprpPHHkGJcEBngZ6TeuVAF7ZBcKl+a5bDWN3sC0wOroSOGNj8SiZyRCZ9Yd5Uwa7M/FCNcae0gm3q/JMpJG5kOfNWcVq6T+7uiebz8O7snOBtemcQrMuYIYA3Up4pijR4MDE7UDeE/20PrgTjQvs5ahmLMreuOe+ehIB1uAysILjgiKPePfZvgeAmUXP5iGl99m9+1TyncXH6vidjHNA2soe0Kz/qdRBfLxKx844Sr37fEdgc/qjMcCAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>run_once</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=aee716a683182210f2d4a6d0deaad3e6^sys_idNOT INc3795eaa83182210f2d4a6d0deaad3b9"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=aee716a683182210f2d4a6d0deaad3e6^sys_idNOT INc3795eaa83182210f2d4a6d0deaad3b9,e6745ff683902210f2d4a6d0deaad346"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Get Trivia Question">b9071ee683182210f2d4a6d0deaad344</action_type>
         <action_type_parent display_value="Get Trivia Question">7e04122683182210f2d4a6d0deaad36e</action_type_parent>
@@ -110,6 +110,28 @@
         <sys_updated_on>2025-03-18 12:41:05</sys_updated_on>
         <ui_id>b7d43b00-5622-4fcb-94c1-d4aeb6621e30</ui_id>
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Trivia Answer">bda3dbb683902210f2d4a6d0deaad39e</action_type>
+        <action_type_parent display_value="Get Trivia Answer">ade21f7683902210f2d4a6d0deaad30b</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">aee716a683182210f2d4a6d0deaad3e6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-19 11:37:18</sys_created_on>
+        <sys_id>e6745ff683902210f2d4a6d0deaad346</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Scripting Examples Global">5d49359883d42210f2d4a6d0deaad3bf</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-19 11:37:18</sys_updated_on>
+        <ui_id>4f07cd33-e318-4f50-bfd4-01e4a7638839</ui_id>
+        <values>H4sIAAAAAAAA/6VS22rjMBD9lUXPtvEtbpO3hVIo7LZ0e3kpxYykcSKQZVeXtNmQf99R7IRSWFjYR52ZOXPmHL3smZJsxbiESnLeXFbLvCyLvCtlDY3MJQLICgqWMAM9UudbQOfVYFqaS9gWdIjofs8vZF3xPE8XTVmmdSd4uqxFkRIP8qYpC6zy7NPw4UDjUrlRw+75/1jERmlp0bDVy2vCRrCk1KNlq/2Xkt+N2GrgqGnZg7fKrGn8Xw04Dd7P67/dXP3NlriIQHdaMVgZ9RQJww+PRiKt7EA7TFgPRoIf7I6tvA0EWAR5Z/Tu3LFRxhMZi70fTv0m5ss8z2Nnh3SbwKl6frazrRMsNoMSeDdGdRPiget5Rgw69OZ2uiEGgh0E7U+BEBIc8eEYRUcZs6buYTO8/zotvFbmeN9c1IMAfX6BJxd48OhiIEE9kjc/vmaAGnvib3sYR0La0Q5bdeQkiX221vTIOj28kxan1iYDEe/JyDrIrgm/OsLPYFU87ifR0HAyr/scRVBPRlFaNzF1XF5Q0ssi5TVfpLWsRQoVfbxFUVGpqxqEBTscrW3fQjxqMmm2o50cpQYnrBr9dxK1xfnyw+sfExepWF0DAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=aee716a683182210f2d4a6d0deaad3e6"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=aee716a683182210f2d4a6d0deaad3e6"/>
