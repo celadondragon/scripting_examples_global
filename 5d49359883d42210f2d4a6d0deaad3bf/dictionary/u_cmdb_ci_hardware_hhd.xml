@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a1b104183bb2610f2d4a6d0deaad3bf" extends="cmdb_ci_hardware" label="Holographic Handheld HHD" max_length="40" name="u_cmdb_ci_hardware_hhd" type="collection">
+        <element label="Firmware version" max_length="40" name="u_firmware_version" type="string"/>
+    </element>
+</database>

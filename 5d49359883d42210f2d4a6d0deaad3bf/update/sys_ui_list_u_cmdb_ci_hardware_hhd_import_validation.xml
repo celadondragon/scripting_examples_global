@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="2" view="import_validation">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>serial_number</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>51f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to.location</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>d1f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>55f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_firmware_version</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>d5f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_tag</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>59f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="f61828c983bb2610f2d4a6d0deaad336">d5f868c183fb2610f2d4a6d0deaad310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_id>d9f868c183fb2610f2d4a6d0deaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_cmdb_ci_hardware_hhd</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-03 12:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5f868c183fb2610f2d4a6d0deaad310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmdb_ci_hardware_hhd</sys_name>
+            <sys_package display_value="Scripting Examples Global" source="5d49359883d42210f2d4a6d0deaad3bf">5d49359883d42210f2d4a6d0deaad3bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scripting Examples Global">5d49359883d42210f2d4a6d0deaad3bf</sys_scope>
+            <sys_update_name>sys_ui_list_u_cmdb_ci_hardware_hhd_import_validation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-03 12:18:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Import validation" name="import_validation">f61828c983bb2610f2d4a6d0deaad336</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
